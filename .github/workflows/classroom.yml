@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Challenge 1
         setup-command: pip install pytest
-        command: pytest test/challenge1.py
+        command: pytest challenge1.py
         timeout: 10
         max-score: 10
     - name: Autograding Reporter
